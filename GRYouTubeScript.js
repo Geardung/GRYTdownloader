@@ -1,8 +1,8 @@
-const stdio = require("./node_modules/stdio")
-const ytdl = require('./node_modules/ytdl-core');
-const fs = require('./node_modules/fs-extra');
+const stdio = require("stdio")
+const ytdl = require('ytdl-core');
+const fs = require('fs-extra');
 
-var dir = './results';
+var dir = __dirname+'/results';
 
 
 if (!fs.existsSync(dir)) {
