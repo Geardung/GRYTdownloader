@@ -2,5 +2,5 @@
 title YouTubeDownloader by Geardung
 mkdir results
 cls
-node youtubedwnl.js
+node GRYouTubeScript.js
 pause
